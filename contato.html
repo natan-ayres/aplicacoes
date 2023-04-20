@@ -1,0 +1,27 @@
+<html>
+<head>
+ <title>Contato</title>
+</head>
+<body>
+<form action="obrigado.html" method="get">
+ <label>Nome: </label>
+ <input type="text" name="nome" required><br>
+ <label>E-mail: </label>
+ <input type="email" name="email" required><br>
+ <label>Assunto: </label>
+ <select name="assunto">
+ <option value="sugestao">Sugestão</option>
+ <option value="critica">Crítica</option>
+ <option value="elogio" selected>Elogio</option>
+</select><br>
+<label>Mensagem:</label>    
+ <textarea name="mensagem" required></textarea><br>
+ <input type="checkbox"name=""value="concordo com os termos"required>
+ <label>
+ Concordo com os Termos de Privacidade do Site
+ </label><br>
+ <input type="submit" value="Enviar">
+ <input type="reset" value="Apagar">
+</form>
+</body>
+</html>
